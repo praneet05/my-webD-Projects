@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 720px;
+    width: 100%;
+    position: relative;
+    background-size:cover;
+    background-image: url("/images/main.jpg");
+}
+.common{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    color: #f5ebe0;
+}
+.fa-solid{
+    color: #f5ebe0;
+    font-size: 30px;
+}
+.content{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5ebe0;
+    font-size: 30px;
+}
+.inputtext{
+    line-height: 2em;
+    width: 200px;
+    padding-left: 10px;
+}
+.buttons{
+    background-color: #E63946;
+    padding: 5px 20px;
+    margin-left: -10px;
+    color: white;
+    transition: all 200ms ease-in-out;
+}
+.buttons:hover{
+    background-color: #1D3557;
+}
+.section-heading{
+    padding-top:10px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.section2-sub{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+.section2{
+    background-color: #f5ebe0;
+    color: #1D3557;
+    padding-bottom: 15px;
+}
+.destination-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.objects{
+    border-right: 1px solid #1D3557;
+}
+.objects:last-child{
+    border-right: none;
+}
+.image {
+    width: 232px;
+    height: 232px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #1D3557;
+    border-radius: 20px;
+}
+.imgs{
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+.imgs:hover{
+    transform: scale(1.2);
+}
+.objects-heading {
+    margin:10px 0 20px 0;
+    letter-spacing: 1.2px;
+}
+.objects-para{
+margin:0 40px;
+font-weight: 600;
+}
+.section3{
+    background-color: #e3d5ca;
+    color: #1D3557;
+}
+.content2{
+    color: #1D3557;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.forms{
+    padding-top: 10px;
+}
+.footer{
+    font-size: 10px;
+    text-align: center;
+    background-color: #03071e;
+    color: white;
+    padding: 10px;
+}
