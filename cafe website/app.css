@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.herosection{
+    background-image: url(./icons/main.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+.logo,.coffee{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding:10px;
+}
+.navbar{
+    padding: 15px 0;
+    text-align: center;
+    height: 60px;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+.nav-list{
+    color: white;
+    padding: 0 20px;
+    line-height: 1.5;
+}
+.content{
+    color: white;
+    padding-top: 100px;
+    width: 38%;
+    margin-left: 150px;
+}
+.small-heading{
+    font-size: 2em;
+    font-weight: 100;
+}
+.large-heading{
+    font-size: 3em;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+}
+.info{
+    text-align: justify;
+    padding:10px 0 60px 0;
+    width: 550px;
+}
+.menu-button,.buttons{
+    color: white;
+    border: 1px solid black;
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.section2{
+    background-color: #dee2e6;
+}
+.objects, .objects-menu{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 30px 50px 50px 50px;
+}
+.object1-head{
+    font-size: 2.8em;
+}
+.object1{
+    padding-left: 100px;
+}
+.object2, .burger{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+.section3{
+    background-color: #e9ecef;
+}
+.objects-menu{
+    flex-wrap: wrap;
+}
+.content3{
+    padding: 70px 0 40px 0;
+    text-align: center;
+}
+.menu-list{
+    padding: 30px;
+    background-color: #f8f9fa;
+     margin: 10px;
+    border-radius: 10px;
+}
+.menu-price{
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    margin: auto 0;
+    color: red;
+}
+.section4{
+    position: relative;
+    overflow: hidden;
+    color: black;
+}
+.section4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./icons/pizza.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; 
+    z-index: -1;
+}
+.section4 .object1{
+    width: 50%;
+}
+.section4 .object2{
+    width: 30%;
+    margin: 0 auto;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+.form-items{
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+.section4 .buttons{
+    width: 170px;
+    margin: 0 auto 70px auto;
+}
+.photos{
+    margin: 0 20px;
+}
+.photos,.small-img{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+}
+.photos,.large-img{
+    width: 300px;
+    height: 350px;
+    padding-bottom: 20px;
+}
+.pht{
+    margin-top: 50px;
+}
+.user-feedback{
+    margin-top: 300px;
+    background-image: url(./icons/review-bg.jpg);
+    background-position: center;
+    position:relative;
+    height: 550px;
+}
+.user{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-top: 140px;
+}
+.name,.profile{
+    padding-left: 300px;
+}
+.section6{
+    background-color: #c1121f;
+    color: white;
+    height: 500px;
+    padding: 50px;
+}
+.hours,.contact,.newsletter{
+    width: 500px;
+    padding: 40px;
+}
+.section6 h2{
+    padding-bottom: 20px;
+}
+.ul-list{
+    list-style-type:none;;
+}
+.list-items{
+    padding: 20px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.form2{
+    padding-top: 40px;
+}
+.email{
+    padding: 12px;
+    border-radius: 20px;
+    width: 300px;
+    border: none;
+}
+.but{
+    background-color: #c1121f;
+    margin-left: -38px;
+    padding: 10px;
+    border-radius: 20px;
+    border: white;
+}
+.fa-arrow-right{
+    color: white;
+}
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
